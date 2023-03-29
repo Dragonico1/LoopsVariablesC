@@ -9,7 +9,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand();
 	int Udigito = n % 10;
 
     printf("The last digit of %i is %i ", n, Udigito);
